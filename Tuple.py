@@ -1,0 +1,15 @@
+T = ("Green",45,True,"red","white","red")
+print(T)
+print(type(T))
+x = T.count("red")
+print(x)
+h = T.index("red")
+print(h)
+print(len(T))
+print(T.count('red'))
+
+
+T = list(T)
+T.insert(1,"Peach")
+T = tuple(T)
+print(T)
