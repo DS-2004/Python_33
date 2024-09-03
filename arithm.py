@@ -1,8 +1,8 @@
-"""
+
 a = int(input("Enter the first number = "))
 b = int(input("Enter the second number = "))
 
-def add(a,b):
+def add():
     c = a + b
     print("Addition of a and b is ",c)
 add()
@@ -36,7 +36,7 @@ def Ex():
     c = a ** b
     print("Exponentation of a and b is ",c)
 Ex()
-"""
+
 
 
 num1 = int(input("Enter the number "))
